@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAAF2C3629E9A2F9004E6AC0 /* MOBA2_Lab_GameOfLifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAF2C3529E9A2F9004E6AC0 /* MOBA2_Lab_GameOfLifeApp.swift */; };
+		EAAF2C3829E9A2F9004E6AC0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAF2C3729E9A2F9004E6AC0 /* ContentView.swift */; };
+		EAAF2C3A29E9A2FB004E6AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAAF2C3929E9A2FB004E6AC0 /* Assets.xcassets */; };
+		EAAF2C3D29E9A2FB004E6AC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAAF2C3C29E9A2FB004E6AC0 /* Preview Assets.xcassets */; };
+		EAAF2C4729E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAF2C4629E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeTests.swift */; };
+		EAAF2C5129E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAF2C5029E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeUITests.swift */; };
+		EAAF2C5329E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAF2C5229E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAAF2C4329E9A2FB004E6AC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAAF2C2A29E9A2F9004E6AC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAF2C3129E9A2F9004E6AC0;
+			remoteInfo = MOBA2_Lab_GameOfLife;
+		};
+		EAAF2C4D29E9A2FB004E6AC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAAF2C2A29E9A2F9004E6AC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAF2C3129E9A2F9004E6AC0;
+			remoteInfo = MOBA2_Lab_GameOfLife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAAF2C3229E9A2F9004E6AC0 /* MOBA2_Lab_GameOfLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOBA2_Lab_GameOfLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAAF2C3529E9A2F9004E6AC0 /* MOBA2_Lab_GameOfLifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOBA2_Lab_GameOfLifeApp.swift; sourceTree = "<group>"; };
+		EAAF2C3729E9A2F9004E6AC0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EAAF2C3929E9A2FB004E6AC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAAF2C3C29E9A2FB004E6AC0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EAAF2C4229E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOBA2_Lab_GameOfLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAAF2C4629E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOBA2_Lab_GameOfLifeTests.swift; sourceTree = "<group>"; };
+		EAAF2C4C29E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOBA2_Lab_GameOfLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAAF2C5029E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOBA2_Lab_GameOfLifeUITests.swift; sourceTree = "<group>"; };
+		EAAF2C5229E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOBA2_Lab_GameOfLifeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAAF2C2F29E9A2F9004E6AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAF2C3F29E9A2FB004E6AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAF2C4929E9A2FB004E6AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAAF2C2929E9A2F9004E6AC0 = {
+			isa = PBXGroup;
+			children = (
+				EAAF2C3429E9A2F9004E6AC0 /* MOBA2_Lab_GameOfLife */,
+				EAAF2C4529E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeTests */,
+				EAAF2C4F29E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeUITests */,
+				EAAF2C3329E9A2F9004E6AC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAAF2C3329E9A2F9004E6AC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAAF2C3229E9A2F9004E6AC0 /* MOBA2_Lab_GameOfLife.app */,
+				EAAF2C4229E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeTests.xctest */,
+				EAAF2C4C29E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAAF2C3429E9A2F9004E6AC0 /* MOBA2_Lab_GameOfLife */ = {
+			isa = PBXGroup;
+			children = (
+				EAAF2C3529E9A2F9004E6AC0 /* MOBA2_Lab_GameOfLifeApp.swift */,
+				EAAF2C3729E9A2F9004E6AC0 /* ContentView.swift */,
+				EAAF2C3929E9A2FB004E6AC0 /* Assets.xcassets */,
+				EAAF2C3B29E9A2FB004E6AC0 /* Preview Content */,
+			);
+			path = MOBA2_Lab_GameOfLife;
+			sourceTree = "<group>";
+		};
+		EAAF2C3B29E9A2FB004E6AC0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EAAF2C3C29E9A2FB004E6AC0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EAAF2C4529E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAAF2C4629E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeTests.swift */,
+			);
+			path = MOBA2_Lab_GameOfLifeTests;
+			sourceTree = "<group>";
+		};
+		EAAF2C4F29E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAAF2C5029E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeUITests.swift */,
+				EAAF2C5229E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeUITestsLaunchTests.swift */,
+			);
+			path = MOBA2_Lab_GameOfLifeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAAF2C3129E9A2F9004E6AC0 /* MOBA2_Lab_GameOfLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAAF2C5629E9A2FB004E6AC0 /* Build configuration list for PBXNativeTarget "MOBA2_Lab_GameOfLife" */;
+			buildPhases = (
+				EAAF2C2E29E9A2F9004E6AC0 /* Sources */,
+				EAAF2C2F29E9A2F9004E6AC0 /* Frameworks */,
+				EAAF2C3029E9A2F9004E6AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MOBA2_Lab_GameOfLife;
+			productName = MOBA2_Lab_GameOfLife;
+			productReference = EAAF2C3229E9A2F9004E6AC0 /* MOBA2_Lab_GameOfLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAAF2C4129E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAAF2C5929E9A2FB004E6AC0 /* Build configuration list for PBXNativeTarget "MOBA2_Lab_GameOfLifeTests" */;
+			buildPhases = (
+				EAAF2C3E29E9A2FB004E6AC0 /* Sources */,
+				EAAF2C3F29E9A2FB004E6AC0 /* Frameworks */,
+				EAAF2C4029E9A2FB004E6AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAAF2C4429E9A2FB004E6AC0 /* PBXTargetDependency */,
+			);
+			name = MOBA2_Lab_GameOfLifeTests;
+			productName = MOBA2_Lab_GameOfLifeTests;
+			productReference = EAAF2C4229E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAAF2C4B29E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAAF2C5C29E9A2FB004E6AC0 /* Build configuration list for PBXNativeTarget "MOBA2_Lab_GameOfLifeUITests" */;
+			buildPhases = (
+				EAAF2C4829E9A2FB004E6AC0 /* Sources */,
+				EAAF2C4929E9A2FB004E6AC0 /* Frameworks */,
+				EAAF2C4A29E9A2FB004E6AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAAF2C4E29E9A2FB004E6AC0 /* PBXTargetDependency */,
+			);
+			name = MOBA2_Lab_GameOfLifeUITests;
+			productName = MOBA2_Lab_GameOfLifeUITests;
+			productReference = EAAF2C4C29E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAAF2C2A29E9A2F9004E6AC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EAAF2C3129E9A2F9004E6AC0 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					EAAF2C4129E9A2FB004E6AC0 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = EAAF2C3129E9A2F9004E6AC0;
+					};
+					EAAF2C4B29E9A2FB004E6AC0 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = EAAF2C3129E9A2F9004E6AC0;
+					};
+				};
+			};
+			buildConfigurationList = EAAF2C2D29E9A2F9004E6AC0 /* Build configuration list for PBXProject "MOBA2_Lab_GameOfLife" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAAF2C2929E9A2F9004E6AC0;
+			productRefGroup = EAAF2C3329E9A2F9004E6AC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAAF2C3129E9A2F9004E6AC0 /* MOBA2_Lab_GameOfLife */,
+				EAAF2C4129E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeTests */,
+				EAAF2C4B29E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAAF2C3029E9A2F9004E6AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAF2C3D29E9A2FB004E6AC0 /* Preview Assets.xcassets in Resources */,
+				EAAF2C3A29E9A2FB004E6AC0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAF2C4029E9A2FB004E6AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAF2C4A29E9A2FB004E6AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAAF2C2E29E9A2F9004E6AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAF2C3829E9A2F9004E6AC0 /* ContentView.swift in Sources */,
+				EAAF2C3629E9A2F9004E6AC0 /* MOBA2_Lab_GameOfLifeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAF2C3E29E9A2FB004E6AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAF2C4729E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAF2C4829E9A2FB004E6AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAF2C5129E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeUITests.swift in Sources */,
+				EAAF2C5329E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAAF2C4429E9A2FB004E6AC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAAF2C3129E9A2F9004E6AC0 /* MOBA2_Lab_GameOfLife */;
+			targetProxy = EAAF2C4329E9A2FB004E6AC0 /* PBXContainerItemProxy */;
+		};
+		EAAF2C4E29E9A2FB004E6AC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAAF2C3129E9A2F9004E6AC0 /* MOBA2_Lab_GameOfLife */;
+			targetProxy = EAAF2C4D29E9A2FB004E6AC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EAAF2C5429E9A2FB004E6AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAAF2C5529E9A2FB004E6AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAAF2C5729E9A2FB004E6AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MOBA2_Lab_GameOfLife/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tony.test.MOBA2-Lab-GameOfLife";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAAF2C5829E9A2FB004E6AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MOBA2_Lab_GameOfLife/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tony.test.MOBA2-Lab-GameOfLife";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EAAF2C5A29E9A2FB004E6AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tony.test.MOBA2-Lab-GameOfLifeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MOBA2_Lab_GameOfLife.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MOBA2_Lab_GameOfLife";
+			};
+			name = Debug;
+		};
+		EAAF2C5B29E9A2FB004E6AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tony.test.MOBA2-Lab-GameOfLifeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MOBA2_Lab_GameOfLife.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MOBA2_Lab_GameOfLife";
+			};
+			name = Release;
+		};
+		EAAF2C5D29E9A2FB004E6AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tony.test.MOBA2-Lab-GameOfLifeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MOBA2_Lab_GameOfLife;
+			};
+			name = Debug;
+		};
+		EAAF2C5E29E9A2FB004E6AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tony.test.MOBA2-Lab-GameOfLifeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MOBA2_Lab_GameOfLife;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAAF2C2D29E9A2F9004E6AC0 /* Build configuration list for PBXProject "MOBA2_Lab_GameOfLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAAF2C5429E9A2FB004E6AC0 /* Debug */,
+				EAAF2C5529E9A2FB004E6AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAAF2C5629E9A2FB004E6AC0 /* Build configuration list for PBXNativeTarget "MOBA2_Lab_GameOfLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAAF2C5729E9A2FB004E6AC0 /* Debug */,
+				EAAF2C5829E9A2FB004E6AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAAF2C5929E9A2FB004E6AC0 /* Build configuration list for PBXNativeTarget "MOBA2_Lab_GameOfLifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAAF2C5A29E9A2FB004E6AC0 /* Debug */,
+				EAAF2C5B29E9A2FB004E6AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAAF2C5C29E9A2FB004E6AC0 /* Build configuration list for PBXNativeTarget "MOBA2_Lab_GameOfLifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAAF2C5D29E9A2FB004E6AC0 /* Debug */,
+				EAAF2C5E29E9A2FB004E6AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAAF2C2A29E9A2F9004E6AC0 /* Project object */;
+}
