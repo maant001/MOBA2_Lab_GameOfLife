@@ -4,6 +4,10 @@
 //
 //  Created by Tony Mamaril on 14.04.23.
 //
+//  to start:
+//  - navigate to main.swift file in terminal
+//  - enter command: swiftc -o main main.swift
+//  - enter command:  ./main 
 
 import Foundation
 
