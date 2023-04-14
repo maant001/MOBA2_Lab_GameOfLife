@@ -14,6 +14,7 @@
 		EAAF2C4729E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAF2C4629E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeTests.swift */; };
 		EAAF2C5129E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAF2C5029E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeUITests.swift */; };
 		EAAF2C5329E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAF2C5229E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeUITestsLaunchTests.swift */; };
+		EAAF2C6029E9AA01004E6AC0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAF2C5F29E9AA01004E6AC0 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		EAAF2C4C29E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOBA2_Lab_GameOfLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAAF2C5029E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOBA2_Lab_GameOfLifeUITests.swift; sourceTree = "<group>"; };
 		EAAF2C5229E9A2FB004E6AC0 /* MOBA2_Lab_GameOfLifeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOBA2_Lab_GameOfLifeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EAAF2C5F29E9AA01004E6AC0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				EAAF2C3729E9A2F9004E6AC0 /* ContentView.swift */,
 				EAAF2C3929E9A2FB004E6AC0 /* Assets.xcassets */,
 				EAAF2C3B29E9A2FB004E6AC0 /* Preview Content */,
+				EAAF2C5F29E9AA01004E6AC0 /* main.swift */,
 			);
 			path = MOBA2_Lab_GameOfLife;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				EAAF2C3829E9A2F9004E6AC0 /* ContentView.swift in Sources */,
 				EAAF2C3629E9A2F9004E6AC0 /* MOBA2_Lab_GameOfLifeApp.swift in Sources */,
+				EAAF2C6029E9AA01004E6AC0 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
