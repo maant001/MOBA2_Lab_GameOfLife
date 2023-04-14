@@ -23,7 +23,6 @@ class Board {
     func printBoard() {
         for i in 0...boardLayout.count-1 {
             var board = ""
-
             for j in 0...boardLayout[i].count-1 {
                 board += String(boardLayout[i][j])
             }
@@ -65,60 +64,53 @@ class Board {
         }
     }
     
-    func calculateNextGen(_ boardLayout: Array<Array<Any>>, _ rows: Int, _ columns: Int ) -> Array<Array<Any>> {
-        var futureGen = Array(repeating: Array(repeating: 0, count: size), count: size)
-
+    func calculateNextGen(_ boardLayout: Array<Array<Any>>, _ rows: Int, _ columns: Int ) {
+                
         for l in 0...boardLayout.count-1 {
             for m in 0...boardLayout.count-1 {
 
-
                 // subtracting
-                //var aliveNeighbours = checkAliveNeighbours(rows, columns) - boardLayout[l][m].state
                 var aliveNeighbours = checkAliveNeighbours(l, m)
-
 
                 // Any live cell with fewer than two live neighbours dies, as if by underpopulation.
                 if ((boardLayout[l][m] as! Int == 1) && (aliveNeighbours < 2)) {
-                    futureGen[l][m] = 0
+                    self.boardLayout[l][m] = 0
                 } else
 
                 // Any live cell with more than three live neighbours dies, as if by overpopulation.
                 if ((boardLayout[l][m] as! Int == 1) && (aliveNeighbours > 3)) {
-                    futureGen[l][m] = 0
+                    self.boardLayout[l][m] = 0
                 } else
 
                 // Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
                 if ((boardLayout[l][m] as! Int == 0) && (aliveNeighbours == 3)) {
-                    futureGen[l][m] = 1
+                    self.boardLayout[l][m] = 1
                 } else {
-                    futureGen[l][m] = boardLayout[l][m] as! Int
+                    self.boardLayout[l][m] = boardLayout[l][m] as! Int
                 }
 
             }
         }
-        return futureGen
     }
     
     func getBoard() -> [[Int]] {
         return boardLayout
     }
-    
-    
-   
-
 }
 
-// define here how many generations
-let size = 7
-let board = Board(size)
+
+// define size here
+var size = 5
+var board = Board(size)
 print("Generation 0 :)")
 board.printBoard()
 print("-------")
 
-for i in 1...15 {
+// define here how many generations
+for i in 1...5 {
+
     board.calculateNextGen(board.getBoard(), size, size)
     print("Generation " + String(i) + " :)")
     board.printBoard()
     print("-------")
-
 }
