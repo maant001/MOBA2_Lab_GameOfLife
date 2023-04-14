@@ -66,10 +66,10 @@ class Board {
     }
     
     func calculateNextGen(_ boardLayout: Array<Array<Any>>, _ rows: Int, _ columns: Int ) -> Array<Array<Any>> {
-        var futureGen = [[Int]]()
+        var futureGen = Array(repeating: Array(repeating: 0, count: size), count: size)
 
-        for l in 0...boardLayout.count {
-            for m in 0...boardLayout.count {
+        for l in 0...boardLayout.count-1 {
+            for m in 0...boardLayout.count-1 {
 
 
                 // subtracting
